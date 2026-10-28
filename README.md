@@ -4,6 +4,9 @@
 
 技术栈：**PySide6（Qt 6）** 负责界面与渲染，**Pillow + pillow-heif** 负责解码。
 
+> **直接下载可执行程序 →** [Releases · ImageViewer-v1.0.0.exe (58 MB)](https://github.com/314662376/image-viewer/releases/download/v1.0.0/ImageViewer-v1.0.0.exe)
+> 单文件，Windows 10/11 x64 双击即用，目标机无需 Python 与任何依赖。仓库内只存源码与素材，58 MB 的 exe 放在 Release 附件里，避免每次提交都把二进制叠进 git 历史。
+
 ![截图](screenshot.png)
 
 ---
@@ -12,7 +15,7 @@
 
 **方式 A · 直接跑 exe（给别人的电脑用这个）**
 
-复制 `光影相册.exe` 过去，双击即可。**单文件，不需要装 Python、不需要任何依赖**，Windows 10/11 64 位开箱即用（详见第 6 节）。
+从 [Releases](https://github.com/314662376/image-viewer/releases) 下载 `ImageViewer-v1.0.0.exe`（即本地的「光影相册.exe」，同一份构建），双击即可。**单文件，不需要装 Python、不需要任何依赖**，Windows 10/11 64 位开箱即用（详见第 6 节）。
 
 **方式 B · 源码运行**
 
