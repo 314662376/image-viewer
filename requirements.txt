@@ -1,0 +1,4 @@
+# 运行依赖（Python 3.9+，已在 3.13 验证）
+PySide6>=6.8          # Qt6 界面：窗口、画布缩放、动画定时器
+Pillow>=10.0          # 图像解码：JPEG/PNG/WEBP/GIF/BMP/TIFF/ICO
+pillow-heif>=0.16     # HEIC/HEIF/AVIF 解码（自带 libheif，无需系统解码器）

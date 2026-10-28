@@ -1,0 +1,24 @@
+# Python 虚拟环境（739MB，不入库）
+.venv/
+venv/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# PyInstaller 中间产物（最终 exe 在仓库根目录，单独提交）
+build/
+dist/
+*.spec
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 项目内部工作数据（记忆、缓存等），不公开
+.workbuddy/
